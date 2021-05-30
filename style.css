@@ -79,7 +79,7 @@ nav img{
    text-decoration: none;
    color:#fff;
    border: 1px solid #fff;
-   padding: 12px 34px;
+   padding: 10px 30px;
    font-size: 15px;
    background:transparent;
    position: relative;
@@ -312,7 +312,7 @@ h3{
 /* 
 ---=-------font awesome----- */
 
-/* .testimonial-col .fa{
+.testimonial-col .fa{
     color: #f44336;
 }
 @media(max-width:700px){
@@ -323,13 +323,17 @@ h3{
        
     }
 
-} */
+}
 
 /* ------To call Action---- */
 .cta{
     margin: 100px auto;
     width: 80%;
-    background-image: url(images/banner.png);
+    /* background-image: url(images/banner.png); */
+
+    background:
+    linear-gradient(rgba(0,184,255,0.45),rgba(0,184,255,0.45)),
+    url('images/banner.png'); 
     background-position: center;
     background-size: cover;
     border-radius: 10px;
@@ -353,7 +357,7 @@ h3{
 
 /* --------footer------ */
 
-
+/* 
 .footer{
     width: 100%;
     text-align:center;
@@ -367,15 +371,15 @@ h3{
 }
 .style{
     color: black;
-}
+} */
 
 
 
-/* -------font awesome---- */
+/* -------font awesome---- footer*/
 
-.icons .fa{
+/* .icons .fa{
     color: red;
     margin: 0 13px;
     cursor: pointer;
     padding: 18px 0;
-}
+} */
