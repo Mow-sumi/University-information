@@ -415,9 +415,9 @@ body{
     background:#fff; 
 }
 
-/* .contact-form:hover{
+.contact-form input:hover{
     background:#f1f1f1;
-} */
+}
 
 .contact-form h1{
     margin-top: 0;
@@ -463,4 +463,50 @@ body{
     border: 1px solid #f4433f;
     background:blue;
     transition: 1s;
+}
+
+
+/* -----------status success button section ----- */
+
+#status{
+    width: 90%;
+    max-width:500px;
+    text-align:center;
+    padding: 10px;
+    margin: 0 auto;
+    /* border-radius:8px; */
+}
+#status.success{
+    background-color:rgb(38, 219, 219);
+    margin-top: 10px;
+    width: 100%;
+    animation: status 4s ease forwards;
+}
+#status.error{
+    background-color:rgb(38, 219, 219);
+    margin-top: 10px;
+    width: 100%;
+    color: #fff;
+    text-transform: uppercase;
+    animation: status 4s ease forwards;
+}
+
+
+/* ........success button hidden system....... */
+
+@keyframes status{
+    0%{
+        opacity: 1;
+        pointer-events: all;
+    }
+
+    90%{
+        opacity: 1;
+        pointer-events: all;
+    }
+
+    100%{
+        opacity: 0;
+        pointer-events: none;
+    }
 }
